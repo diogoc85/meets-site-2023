@@ -1,0 +1,43 @@
+
+.box-parceiros{
+
+    height:22rem;
+
+    .img-parceiro{
+        bottom:0;
+        max-width: 85%;
+    }
+}
+
+
+.img-seja-parceiro{
+    z-index: 20;
+    bottom:0;
+    right:1rem;
+}
+
+.box-seja-parceiro{
+
+    height:25rem;
+
+    
+}
+
+.seja-parceiro{
+    background: $gradient-black;
+}
+
+table.porcentagem{
+    background:#fff;
+}
+
+@media (max-width: 760px)
+{
+    .seja-parceiro{
+        padding: 3em 0 0 0;
+    }
+    .img-seja-parceiro{
+        right: 4em;
+        width: 80%;
+    }
+}

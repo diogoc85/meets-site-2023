@@ -1,0 +1,110 @@
+.caixa-central, .caixa-bot{
+    padding: 5em 0;
+}
+.caixa-funil, .caixa-gatilho{
+    padding: 3em 0;
+}
+
+#chamada-bot{
+    min-height: 35em;
+}
+
+.tela-chat{
+    z-index: 100;
+    left: 0em;
+    top: -16em;
+}
+.robozinho {
+    z-index: 999;
+    right: 0em;
+    top: -4em;
+}
+.hibrido{
+    top: -7em;
+}
+
+.robo{
+    left: 0;
+    top: -3em;
+}
+
+.aviao {
+    z-index: 999;
+    right: 12em;
+    top: 0;
+}
+
+.link-test{
+    padding: 1em;
+    background-color: aqua;
+    a{
+        width:46px;
+        height: 46px;
+        display:inline-block;
+    }
+}
+
+.css-1s2u09g-control, .css-b62m3t-container{
+    border-radius: 2em!important;
+    border: 0!important;
+    border-color: none!important;;
+
+    &:hover{
+        border-radius: 2em!important;
+        border: 0!important;
+        border-color: none!important;;
+    }
+    &:focus{
+        border-radius: 2em!important;
+        border: 0!important;
+        border-color: none!important;;
+    }
+}
+.css-1okebmr-indicatorSeparator{
+    display: none!important;
+}
+.css-319lph-ValueContainer{
+    padding: 0 0 0 1em!important;
+}
+
+
+
+@media (max-width: 760px)
+    {
+    .robozinho{
+        top: 0;
+        right: 0;
+    }
+    .tela-chat{
+        height: 25em;
+        top: 0;
+    }
+    .tela-gatilho{
+        display: flex;
+        margin: 0 auto;
+        height: 20em;
+    }
+
+    .aviao{
+        height: 17em;
+        right: 8em;
+    }
+
+    .img-gatilho{
+        margin-bottom: 2em;
+    }
+
+    .importante{
+        .btn-mini{
+            margin-bottom: 2em;
+        }
+    }
+
+    .caixa-central, .caixa-bot{
+        padding: 2em 0;
+    }
+    .caixa-funil, .caixa-gatilho{
+        padding: 1em 0;
+    }
+
+}

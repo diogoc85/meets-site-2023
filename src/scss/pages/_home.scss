@@ -1,0 +1,224 @@
+.breve{
+    background: linear-gradient(45deg, rgb(28, 34, 196) 0%, rgb(0, 123, 246) 30%, rgb(28, 34, 196) 70%, rgb(0, 132, 209) 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+
+    p{
+        margin: 0;
+        a{
+            color: #fff;
+        }
+    }
+}
+
+.crm-mais{
+    font-size:6rem;
+}
+
+.c-at{
+    font-size:5rem;
+    line-height:4.8rem;
+}
+
+.banner-content{
+
+    ul{
+        margin-bottom: 1rem;
+
+        svg{
+            color: $info;
+            width: 1rem;
+        }
+    }
+}
+
+.man-central{
+    z-index: 10;
+    bottom: 0;
+    right:0;
+    display: flex;
+}
+.lista-contatos{
+    z-index: 1;
+    top: -4rem;
+    left:-2rem;
+}
+.robo{
+    z-index: 100;
+    top: 0;
+    right:0;
+}
+.icons-msg{
+    z-index: 100;
+    bottom: -5rem;
+    left:0;
+}
+.nav-msg{
+    z-index: 100;
+    bottom: 5rem;
+    right:-2rem;
+}
+
+.escolher-meets{
+    padding-bottom: 10rem!important;
+}
+
+#action-home{
+    position: relative;
+    top: -8rem;
+}
+
+.icons-social{
+
+    li{
+        margin: 0 1rem 1rem 0;
+    }
+}
+
+.consultoria{
+    
+    background: url(../public/images/banner/bg-consultoria.jpg) no-repeat top right;
+    background-size: cover;
+    h2, h4{
+        color: $white;
+    }
+    h2{
+        font-size: 2.9em;
+    }
+    h4{
+        padding: 0 0 .5em 0;
+        font-weight: 400;
+    }
+    h5{
+        padding: .4em 1.2em;
+        display: inline-block;
+        border-radius: 2em;
+        background-color: #ffae00;
+    }
+}
+
+.ebook{
+    background: url(../public/images/banner/bg-ebook.jpg) no-repeat center center;
+    background-size: cover;
+    .btn{
+        .btn-lg{
+            font-size: 2.5em;
+        }
+    }
+    h5, h4, h6{
+        color: $white;
+    }
+    h4{
+        font-size: 2.9em;
+    }
+    h5{
+        padding: .4em 1.2em;
+        display: inline-block;
+        border-radius: 2em;
+        background-color: #03bfd2;
+    }
+    h6{
+        padding-bottom: .5em;
+        font-size: 1.4em;
+    }
+}
+
+.consult{
+    
+    li{
+        list-style-image: url(../public/images/icon/check.svg);
+        list-style-position: inside;
+        margin-bottom: .5em;
+    }
+}
+.obj_consult{
+    padding-top: 4em;
+    color: $white;
+    background: #2d3740 url(../public/images/banner/bg-consultoria-01.png) top center no-repeat;
+    background-size: contain;
+
+    .btn{
+        .btn-lg{
+            font-size: 2.5em;
+        }
+    }
+    h3, h4{
+        color: $white;
+    }
+    h4{
+        padding: 1em 0;
+    }
+    a{
+        color: $white;
+        margin-bottom: 4em;
+        background: #00c631;
+        &:hover{
+            color: $white;
+            background: #06a82f;
+        }
+    }
+}
+
+@media (max-width: 760px)
+{
+    .nav-tabs {
+        .nav-item{
+        font-size: 1.3em!important;
+        }
+    }
+    .box-central {
+        
+        .nav-msg{
+            bottom: 5rem;
+            right:0em;
+        }
+        .lista-contatos{
+            top: 6em;
+        }
+        .robo{
+            top: 11em;
+            right:0em;
+        }
+        .icons-msg{
+            left:9em;
+        }
+    }
+
+.banner-content{
+    h1{
+        font-size: 1em;
+    }
+}
+
+.acoes{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        margin-bottom: 1em;
+    }
+}
+    .chamadas{
+        li{
+            padding-bottom: 2em;
+        }
+    }
+    .ebook{
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2em!important;
+        h4{
+            font-size: 1.5em;
+        }
+        h6{
+            font-size: 1.1em;
+        }
+    }
+    .obj_consult{
+        background-image: none;
+    }
+}

@@ -1,0 +1,36 @@
+
+
+.foguete{
+    bottom:-4rem;
+    right:2rem;
+    z-index: 10;
+}
+
+.img-ajuda{
+    bottom:0;
+    right:6rem;
+}
+.box-ajuda{
+    height:24em;
+}
+
+.social li a.fa{
+    font-size: 2em;
+    color: #000;
+    margin: 1.2rem;
+
+    &:hover{
+        color: $info;
+    }
+}
+
+@media (max-width: 760px){
+    .img-ajuda{
+        right:2rem;
+    }
+    .box-ajuda{
+        height:33em;
+    }
+    }
+
+

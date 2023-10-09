@@ -1,0 +1,79 @@
+
+
+
+.icon-esq{
+    z-index: 100;
+    left:-1em;
+    top:7em;
+    width: 9em;
+}
+
+.icon-dir{
+    z-index: 100;
+    right:2em;
+    top:5em;
+    width: 9em;
+}
+.palmas{
+    z-index: 100;
+    right:2em;
+    bottom:5em;
+}
+.smile-01{
+    z-index: 100;
+    left:0em;
+    bottom:1em;
+}
+.smile-02{
+    z-index: 100;
+    right:2em;
+    top:-5em;
+}
+.usuario-01{
+    z-index: 100;
+    left:1em;
+    top:13em;
+}
+.usuario-02{
+    z-index: 100;
+    right:8em;
+    bottom:3em;
+}
+.usuario-03{
+    z-index: 100;
+    left:2em;
+    top:2em;
+}
+.usuario-04{
+    z-index: 100;
+    right:2em;
+    top:5em;
+}
+.usuario-05{
+    z-index: 100;
+    right:2em;
+    top:5em;
+}
+.usuario-06{
+    z-index: 100;
+    right:2em;
+    top:15em;
+}
+.brasao-whats{
+    z-index: 100;
+    right:2em;
+    top:5em;
+}
+
+@media (max-width: 760px)
+{
+    .sol-mob{
+        margin:4em;
+    }
+
+    .icon-esq, .icon-dir{
+        width: 5em;
+        right:2em;
+        top:3em;
+    }
+}

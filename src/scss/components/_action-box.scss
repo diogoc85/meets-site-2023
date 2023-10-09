@@ -1,0 +1,36 @@
+// action box
+.action-box{
+	&.style-1{
+		position: relative;
+		background: rgb(0,201,255);
+		background: linear-gradient(45deg, rgba(0,201,255,1) 0%, rgba(0,156,234,1) 100%);
+		padding: 80px 80px;
+		border-radius:10px;
+		box-shadow: -3px 3px 5px rgba(0,0,0,0.5);
+
+		h2{
+			color: #fff;
+		}
+
+		a{
+			padding:.8em 1.3em;
+			font-size:1.5em;
+		}
+
+		&.lead-chat{
+			padding:40px;
+		}
+
+		@include respond('tab-port'){
+			padding: 60px 0 30px;
+		}
+		@include respond('phone-land'){
+			.text-right{
+				text-align: left!important;
+			}
+		}
+		@include respond('phone'){
+			padding: 30px 0 30px;
+		}
+	}
+}

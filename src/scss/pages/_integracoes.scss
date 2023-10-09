@@ -1,0 +1,64 @@
+
+.homem{
+    bottom:0;
+    display: flex;
+}
+
+.integracoes {
+
+    .wow{
+        margin-bottom:1rem;
+    }
+
+    .aplicativo{
+
+    h5{
+        font-size:.8rem;
+    }
+    a.btn, p.btn{
+        padding:.4rem 1rem; 
+        font-size:.8rem;   
+        }   
+    } 
+    p.btn{
+        margin-bottom: 0;
+    }
+    p.btn-breve{
+        background-color: $gray;
+        color: $white;
+    }
+    .pos-top{
+    align-items:center;
+    }
+
+    .box-homem{
+        height:22rem
+    }
+
+}
+
+.icon-int{
+    height:4rem;
+    margin-bottom: 1em;
+}
+
+.estatistica-whats{
+
+    img{
+       height:5em;
+       margin-bottom: 2em;
+    }
+   
+}
+
+.aplicativo{
+    .rounded{
+        background: $white;
+    }
+}
+
+@media (max-width: 760px)
+{
+
+
+}

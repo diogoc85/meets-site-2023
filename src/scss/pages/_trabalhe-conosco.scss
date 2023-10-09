@@ -1,0 +1,38 @@
+
+
+.foguete{
+    bottom:-4rem;
+    right:2rem;
+    z-index: 10;
+}
+
+.img-man-job{
+    bottom:0;
+    right:6rem;
+}
+.box-job{
+    height:24em;
+}
+
+@media (max-width: 760px){
+.banner-inner{
+    padding:2em 2em 0 2em!important;
+}
+
+.box-job{
+    height:33em;
+}
+
+.img-man-job{
+    bottom:0;
+    right:2rem;
+}
+
+
+.foguete{
+    bottom:-2rem;
+    width: 12em;
+}
+
+
+}

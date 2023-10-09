@@ -1,0 +1,25 @@
+
+
+.page-teste{
+    height:100vh;
+    background: $gradient-meets;
+
+    .chamada-teste{
+        background: $gradient-black;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .formulario-teste{
+        background: $white;
+        border-radius: 0 10px 10px 0;
+    }
+
+}
+
+.sucesso{
+    img{
+        width: 5em;
+        height: 5em;
+        margin-bottom: 1em;
+    }
+}

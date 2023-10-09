@@ -1,0 +1,105 @@
+
+
+.menu-recursos{
+    li{
+        margin: .5em;
+
+        a{
+            padding: .5em 1em;
+            background-color: #fff;
+
+        &:hover{
+            background: $info;
+            color: #fff;
+        }
+        }
+    }
+}
+
+.studio-bi{
+    background: $gradient-black;
+    font-size: 2em;
+    color: #fff;
+    font-style: italic;
+
+    .icons-studio-bi{
+        height:3.4em;
+    }
+
+    .importacao{
+        z-index: 2;
+        top: -2em;
+        left: 0;
+        width:7em;
+    }
+    .bi{
+        z-index: 5;
+        top: -2em;
+        right: 0em;
+        width:4em;
+    }
+    .studio{
+        z-index: 8;
+        top: 1em;
+        left: 5em;
+        width:3em;
+    }
+}
+
+.integ_whats{
+    background:white;
+}
+.atividades{
+    .content-inner-2{
+        padding-top:2em;
+    }
+}
+.list-atividades{
+    
+    li{
+        padding-bottom: .6em;
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+}
+
+
+.nav-tabs{
+    border: 0;
+
+    .nav-item{
+        font-size: 1.5em;
+        padding: 0.3em 1.3em;
+    }
+
+    .nav-link{
+        border-radius: 50px;
+        border:none;
+
+        .active{
+            color: #fff;
+            background-color: $info;
+        }
+    }
+}
+
+
+@media (max-width: 760px)
+{
+.tab-pane{
+    img{
+        width: 70%;
+        margin: 2em 0;
+    }
+}
+.menu-recursos{
+    ul{
+        flex-direction: column;
+    }
+}
+
+.studio-bi .icons-studio-bi {
+    height: 5.4em;
+}
+
+}

@@ -1,0 +1,244 @@
+
+.box-meu-plano{
+    background: $gradient-black;
+}
+
+.meu-plano{
+    height:24rem;
+}
+
+.tabela{
+    background-color: blueviolet;
+    padding:10rem;
+    color:white;
+}
+
+th, td{padding: 1em; border: 1px solid #ccc;}
+
+.classe-v,.classe-x{
+    text-align: center;
+}
+.classe-v b{
+    color:green;
+}
+
+.classe-x b{
+    color:red;
+}
+
+.w-33{
+    width:30%;
+}
+
+.table-plano tr:nth-of-type(odd){
+    background-color: #f2f2f2;
+}
+.top-tabela{
+    background-color: $primary!important;
+    color: $white;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @include respond('phone-land'){
+		grid-template-columns: 1fr;
+	}
+	@include respond('phone'){
+		grid-template-columns: 1fr;
+	}
+}
+
+.pricingtable-title{
+    background-color: $gray-100;
+}
+.escolhido{
+    background-color: $dark;
+    color: $white;
+    border-radius: 50em;
+    padding: .5em 2em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.onboarding{
+    h5{
+        line-height: 1.5em;
+    }
+    .icon-onboarding{
+        z-index: 10;
+        width: 10rem;
+        bottom: 11em;
+        right: 1em;
+    }
+    .mulher-onboarding{
+        max-width: 95%;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.pricingtable-title.header-prof{
+        background-color: $info;
+        
+    h4.pricingtable-bx, h6{
+        color: $white;
+    }
+}
+
+.pricingtable-price {
+    h2{
+        color: $info;
+    }
+    h2.profis{
+        margin-bottom: 0;
+        color: $white;
+    }
+}
+
+.pricingtable-wrapper.style-2{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    font-size: .9em;
+    height: 100%;
+
+    .pricingtable-title, .pricingtable-features{
+        padding: 2em 1em;
+    }
+
+    .pricingtable-footer{
+
+        a{
+            display: block;
+            margin: 0 2em 2em;
+        }
+    }
+    svg{
+        color: $info;
+    }
+}
+
+.mulher-planos{
+    bottom: 0em;
+    right: 5em;
+}
+
+.central-whats{
+    top: -13em;
+}
+
+.preco{
+    color: $info;
+}
+
+.pricingtable-features{
+    li{
+        display: flex;
+        align-items: flex-start;
+        padding: 5px 0;
+        line-height: 1.4em;
+
+        svg{
+            color: $info;
+            width: 1.2em;
+            height: 1.2em;
+            margin-right: .5em;
+        }
+    }
+}
+
+#addons{
+    img{
+        width: 2.5em;
+    }
+    .pricing{
+        background: $white;
+        border: 1px solid #f2f2f2;
+        border-radius: 1rem;
+        height: 100%;
+        a{
+            padding: .4em 1.5em;
+            &:hover{
+                background: $info;
+            }
+        }
+        h4{
+            margin-top: .6em;
+            color: $primary;
+        }
+        h6{
+            margin-bottom: 0;
+            span{
+                font-size: .8em;
+                color: $gray-600;
+            }
+        }
+    }
+}
+
+.tab-pane{
+    margin: 0 15px;
+
+    .pricingtable-type {
+        font-size  : 45%;
+        font-weight: 600;
+    }
+}
+
+.obs{
+    border-top: 1px solid $gray-200;
+    padding: 2em 0 0 0;
+    margin-top: 2em;
+
+    li{
+        font-size: .8em;
+        padding: 1em;
+
+        span{
+            color: $gray-600;
+            font-weight: bold;
+        }
+    }
+}
+
+.promo{
+    color: $white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: $gray-800;
+    display: inline-block;
+    padding: .3em 1em;
+}
+
+.p-white{
+    margin-bottom: 0;
+    color:$white;
+    font-size:1.1em;
+}
+
+@media (max-width: 760px){
+    .mob-remove{
+        display: none;
+    }
+    .meu-plano{
+        height:20rem;
+    }
+    .central-whats{
+        top: -4em;
+    }
+    
+    .box-whats{
+        height: 20em;
+    }
+    .gratis{
+        flex-direction: column;
+    }
+    .itens-gratis{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+}

@@ -1,0 +1,90 @@
+
+.tela-chat{
+    z-index: 100;
+    right: 2em;
+    top: -2em;
+}
+#chamada-bot{
+    min-height: 25em;
+}
+
+.atendimento-centralizado, .chatbot{
+    height:22em;
+}
+.icones-atendimento{
+    z-index: 130;
+    right:4em;
+    top:-2em;
+}
+
+.lista-contatos{
+    z-index: 120;
+    left:0em;
+    top:-7em;
+}
+.circulo-linhas{
+    z-index: 110;
+    left:20em;
+    top:-2em;
+}
+
+.robo-central{
+    z-index: 110;
+    right:-1em;
+    top:6em;
+}
+.card-simples{
+    z-index: 110;
+    right:20em;
+    top:12em;
+}
+
+.msg-auto{
+    right:4em;
+    top: -6em;
+    z-index: 10;
+}
+
+
+@media (max-width: 760px)
+{
+
+    .auto{
+        height: 26em;
+    }
+    .banner-content .sub-title{
+        font-size: 1em;
+    }
+    .atendimento-centralizado {
+        height: 21em;
+    }
+    .chatbot{
+        height: 30em;
+    }
+
+    .msg-auto{
+        right: 0;
+        top: -5em;
+        width: 100%;
+    }
+    .card-simples {
+        right: 10em;
+    }
+
+    .icones-atendimento{
+        height: 15em;
+        z-index: 130;
+        right:3em;
+        top:1em;
+    }
+    .lista-contatos {
+        height: 23em;
+        left: 3em;
+        top: -3em;
+    }
+
+    .banner{
+        margin-bottom: 2em;
+    }
+
+}
